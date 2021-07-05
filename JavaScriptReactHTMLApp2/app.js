@@ -24,4 +24,4 @@ class Greeter extends React.Component {
         );
     }
 }
-ReactDOM.render(<Greeter message="The time iss: " />, document.getElementById("root"));
+ReactDOM.render(<Greeter message="The time is: " />, document.getElementById("root"));

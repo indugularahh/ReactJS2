@@ -29855,9 +29855,9 @@ if (false) {} else {
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 !function() {
-/*!****************!*\
-  !*** ./app.js ***!
-  \****************/
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
@@ -29886,15 +29886,15 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-var Greeter = /*#__PURE__*/function (_React$Component) {
-  _inherits(Greeter, _React$Component);
+var Greeter2 = /*#__PURE__*/function (_React$Component) {
+  _inherits(Greeter2, _React$Component);
 
-  var _super = _createSuper(Greeter);
+  var _super = _createSuper(Greeter2);
 
-  function Greeter(props) {
+  function Greeter2(props) {
     var _this;
 
-    _classCallCheck(this, Greeter);
+    _classCallCheck(this, Greeter2);
 
     _this = _super.call(this, props);
     _this.state = {
@@ -29903,7 +29903,7 @@ var Greeter = /*#__PURE__*/function (_React$Component) {
     return _this;
   }
 
-  _createClass(Greeter, [{
+  _createClass(Greeter2, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       var _this2 = this;
@@ -29926,11 +29926,11 @@ var Greeter = /*#__PURE__*/function (_React$Component) {
     }
   }]);
 
-  return Greeter;
+  return Greeter2;
 }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Greeter, {
-  message: "The time is: "
+react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Greeter2, {
+  message: "The time isss: "
 }), document.getElementById("root"));
 }();
 /******/ })()

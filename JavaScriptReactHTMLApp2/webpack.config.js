@@ -2,7 +2,7 @@
     devtool: "source-map",   // Needed for debug to work
     mode: "development",     // Needed because compilation complains if it's missing
     target: ["web", "es5"],  // Stops Webpack bundling ES5 output from loader with ES6 arrows, duh
-    entry: "./app.js",
+    entry: "./index.js",
     output: {
         filename: "bundle.js",
         devtoolModuleFilenameTemplate: "[resource-path]", // Removes the webpack:/// prefix, fixes debugging in VS2017

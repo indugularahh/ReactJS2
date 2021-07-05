@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import ReactDOM from "react-dom";
 
-class Greeter extends React.Component {
+class Greeter2 extends React.Component {
 
     constructor(props) {
         super(props);
@@ -24,4 +24,4 @@ class Greeter extends React.Component {
         );
     }
 }
-ReactDOM.render(<Greeter message="The time iss: " />, document.getElementById("root"));
+ReactDOM.render(<Greeter2 message="The time isss: " />, document.getElementById("root"));
